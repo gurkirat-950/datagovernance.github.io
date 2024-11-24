@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>JollyDeck Learning Management System</title>
+<base href="https://learn.jollydeck.com/dashboard/" />
+<link rel="shortcut icon" href="../images/favicon.ico?cache=1d32b93c" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="robots" content="noindex, nofollow" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" href="../pack_jscss.php?css&amp;font&amp;cache=1d32b93c" type="text/css" />
+<link rel="stylesheet" href="../pack_jscss.php?css&amp;general&amp;cache=1d32b93c" type="text/css" />
+<link rel="stylesheet" href="pack_jscss.php?css&amp;cache=1d32b93c" type="text/css" />
+<link rel="stylesheet" href="../customisation_css.php?dashboard&amp;user=18690&amp;cache=1d32b93c" type="text/css" />
+</head>
+<body class="dashboard dashboardMain">
+
+
+<header class="dashboardHeader ">
+	<a href="" class="dashboardHeaderLogotype clickable"></a>
+
+		<div class="dashboardHeaderSeparator"></div>
+	<a href="../app/" class="dashboardHeaderAppLink clickable"><span class="fd fd-general-switch-to-app"></span> Switch to Learning app</a>
+	
+	<div class="dashboardHeaderStart"></div>
+	<div class="dashboardHeaderMiddle"></div>
+	<div class="dashboardHeaderEnd"></div>
+
+		<div class="dashboardHeaderUpdates clickable" title="Product updates"><span class="fd fd-general-header-menu-updates"></span><span class="dashboardHeaderUpdatesNew">15</span></div>
+	
+		<div class="dashboardHeaderHelp clickable"><span class="fd fd-content-editor-header-help"></span></div>
+	
+	<div class="dashboardHeaderUserContainer">
+		<div class="dashboardHeaderUser clickable">Devi Karan <span class="fd fd-arrow-down"></span></div>
+		<div class="dashboardHeaderUserMenu dashboardHeaderGeneralMenu right dashboardDropdown">
+			<a href="../app/usersettings/" class="dashboardDropdownEntry"><span class="fd fd-general-header-menu-settings"></span> User settings</a>
+			<span class="dashboardDropdownSeparator"></span>
+			<a href="../app/" class="dashboardDropdownEntry"><span class="fd fd-general-switch-to-app"></span> Learning app</a>
+			<span class="dashboardDropdownSeparator"></span>
+
+			
+			<a href="../logout/" class="dashboardDropdownEntry"><span class="fd fd-general-header-menu-logout"></span> Log out</a>
+		</div>
+	</div>
+</header>
+
+<div class="dashboardContentContainer">
+		<div class="dashboardMenu">
+				<a href="" class="dashboardMenuEntry active">
+			<span class="dashboardMenuEntryIcon"><span class="fd fd-dashboard-menu-main"></span></span>
+			<span class="dashboardMenuEntryText">Dashboard</span>
+		</a>
+				<a href="content/" class="dashboardMenuEntry ">
+			<span class="dashboardMenuEntryIcon"><span class="fd fd-dashboard-menu-content"></span></span>
+			<span class="dashboardMenuEntryText">Content editor</span>
+		</a>
+				<a href="users/" class="dashboardMenuEntry ">
+			<span class="dashboardMenuEntryIcon"><span class="fd fd-dashboard-menu-users"></span></span>
+			<span class="dashboardMenuEntryText">Users</span>
+		</a>
+				<a href="settings/" class="dashboardMenuEntry ">
+			<span class="dashboardMenuEntryIcon"><span class="fd fd-dashboard-menu-settings"></span></span>
+			<span class="dashboardMenuEntryText">Settings</span>
+		</a>
+			</div>
+	
+	<div class="dashboardContentAndFooterContainer">
+		<div class="dashboardContent">
+			
+<div class="dashboardContentSubcontainer">
+	<div class="dashboardMainInner">
+
+		<div class="dashboardMainTitle">Welcome, Devi!</div>
+
+		
+		<div class="dashboardMainContent">
+
+			
+
+			
+			<div class="dashboardMainOverview dashboardMainContentSection">
+								<div class="dashboardMainOverviewFeedback">
+					<div class="dashboardMainOverviewFeedbackButton link">
+						<span class="fd fd-dashboard-main-feedback"></span><!--
+						--><!--
+						-->User comments					</div>
+				</div>
+				
+				<div class="dashboardMainOverviewTitle">Your recent content</div>
+
+								<div class="dashboardMainOverviewSharing">
+					<div class="dashboardMainOverviewSharingSection">
+						<div class="dashboardMainOverviewSharingSectionIcon"><span class="fd fd-dashboard-main-sharing-created"></span></div>
+						<div class="dashboardMainOverviewSharingSectionValue">1</div>
+						<div class="dashboardMainOverviewSharingSectionDescription">Created content</div>
+						<div class="dashboardMainOverviewSharingSectionChange">
+														+1 in the last 30 days													</div>
+					</div>
+					<div class="dashboardMainOverviewSharingSection ">
+						<div class="dashboardMainOverviewSharingSectionIcon"><span class="fd fd-dashboard-main-sharing-published"></span></div>
+						<div class="dashboardMainOverviewSharingSectionValue">0</div>
+						<div class="dashboardMainOverviewSharingSectionDescription">Published content</div>
+						<div class="dashboardMainOverviewSharingSectionChange">No content published yet</div>
+					</div>
+					<div class="dashboardMainOverviewSharingSection disabled">
+						<div class="dashboardMainOverviewSharingSectionIcon"><span class="fd fd-dashboard-main-sharing-usersresolved"></span></div>
+						<div class="dashboardMainOverviewSharingSectionValue">0 %</div>
+						<div class="dashboardMainOverviewSharingSectionDescription">Completion rate</div>
+						<div class="dashboardMainOverviewSharingSectionChange">0 invited users</div>
+					</div>
+				</div>
+							</div>
+
+			
+
+			
+			<div class="dashboardMainContents dashboardMainContentSection">
+
+								<div class="dashboardMainContentsTitle">Create new content from scratch</div>
+				
+				<div class="dashboardMainContentsEntries dashboardMainGeneralContentEntries">
+										<a href="content/3575/" class="dashboardMainGeneralContentEntry content " data-id="3575">
+						<span class="dashboardMainGeneralContentEntryImage" style="background-image: url('../content/622/unit-40271-2-0ee6b3a8fc1dc78053f5eb8f45d33c32.jpg');">
+						
+						</span>
+						<span class="dashboardMainGeneralContentEntryDescription">
+														<span class="dashboardMainGeneralContentEntryIcon">
+								<span class="fd fd-content-type-course"></span>
+							</span>
+														<span class="dashboardMainGeneralContentEntryData">
+								<span class="dashboardMainGeneralContentEntryName">Data Governance Training</span>
+								<span class="dashboardMainGeneralContentEntryContents">20 slides</span>
+															</span>
+						</span>
+					</a>
+					
+					<a href="content/new/" class="dashboardMainContentsEntriesNewGeneral dashboardMainContentsEntriesNew dashboardMainGeneralContentEntry">
+						<span class="dashboardMainContentsEntriesNewInner">
+							<span class="dashboardMainContentsEntriesNewIcon">+</span>
+							<span class="dashboardMainContentsEntriesNewText">New content</span>
+						</span>
+					</a>
+
+															<a href="content/new/#section=pptimport" class="dashboardMainContentsEntriesNewPPTImport dashboardMainContentsEntriesNew dashboardMainGeneralContentEntry">
+						<span class="dashboardMainContentsEntriesNewInner">
+							<span class="dashboardMainContentsEntriesNewIcon">
+								<span class="dashboardMainContentsEntriesNewPPTImportIcon"></span>
+							</span>
+							<span class="dashboardMainContentsEntriesNewText">Convert PowerPoint presentation</span>
+						</span>
+					</a>
+														</div>
+
+				
+								<div class="dashboardMainContentsTitle">Create new content using templates from our content gallery</div>
+
+				<div class="dashboardMainContentsTemplateEntries dashboardMainGeneralContentEntries">
+										<a href="content/new/13871/3130/" class="dashboardMainGeneralContentEntry">
+						<span class="dashboardMainGeneralContentEntryImage" style="background-image: url('../content/1/campaign-THUMBNAIL_030f9009.png');"></span>
+						<span class="dashboardMainGeneralContentEntryDescription">
+							<span class="dashboardMainGeneralContentEntryData">
+								<span class="dashboardMainGeneralContentEntryName">The world of interactivity</span>
+								<span class="dashboardMainGeneralContentEntryContents">Product quick guide</span>
+							</span>
+						</span>
+					</a>
+										<a href="content/new/13853/955/" class="dashboardMainGeneralContentEntry">
+						<span class="dashboardMainGeneralContentEntryImage" style="background-image: url('../content/1/campaign-Thumbnail_bbac31ba.png');"></span>
+						<span class="dashboardMainGeneralContentEntryDescription">
+							<span class="dashboardMainGeneralContentEntryData">
+								<span class="dashboardMainGeneralContentEntryName">It’s e-learning o’clock</span>
+								<span class="dashboardMainGeneralContentEntryContents">Interactive slide deck</span>
+							</span>
+						</span>
+					</a>
+										<a href="content/new/13854/581/" class="dashboardMainGeneralContentEntry">
+						<span class="dashboardMainGeneralContentEntryImage" style="background-image: url('../content/1/campaign-Frame_1088_59b3488a.png');"></span>
+						<span class="dashboardMainGeneralContentEntryDescription">
+							<span class="dashboardMainGeneralContentEntryData">
+								<span class="dashboardMainGeneralContentEntryName">Microlearning: A quick introduction</span>
+								<span class="dashboardMainGeneralContentEntryContents">Microlearning course</span>
+							</span>
+						</span>
+					</a>
+					
+					<a href="content/new/#section=content" class="dashboardMainContentsTemplateEntriesBrowse dashboardMainGeneralContentEntry">
+						<span class="dashboardMainContentsTemplateEntriesBrowseInner">Browse all <span class="fd fd-dashboard-general-arrow-right"></span></span>
+					</a>
+				</div>
+				
+			</div>
+
+			
+		</div>
+
+
+		
+	</div>
+</div>
+
+<div class="templatesContainer">
+	<div class="template-dashboardMainOverviewFeedbackDropdown">
+		<div class="dashboardMainOverviewFeedbackDropdownLoader"><span class="fd fd-loader fd-spin"></span></div>
+		<div class="dashboardMainOverviewFeedbackDropdownTitle" data-translation="{&quot;language&quot;:&quot;en&quot;,&quot;translation&quot;:&quot;{{PLURAL:{count}|0=No unresolved comments|{count} unresolved comment|{count} unresolved comments}}&quot;}"></div>
+		<div class="dashboardMainOverviewFeedbackDropdownEntries"></div>
+	</div>
+
+	<a href="content/{content_id}/review/{unit_id}/" class="template-dashboardMainOverviewFeedbackDropdownEntry">
+		<span class="dashboardMainOverviewFeedbackDropdownEntryTitle"><span class="entry-content_name"></span>: Slide <span class="entry-unit_number"></span></span>
+		<span class="dashboardMainOverviewFeedbackDropdownEntryUnitTitle entry-unit_title"></span>
+		<span class="dashboardMainOverviewFeedbackDropdownEntryLink">See comment <span class="fd fd-arrow-right"></span></span>
+	</a>
+</div>
+
+<div class="templatesContainer">
+	<div class="template-dashboardGeneralPPTImportOrOutlineSessionProgressPopup generalPopup">
+		<div class="dashboardGeneralPPTImportOrOutlineSessionProgressPopupHeader">
+			<div class="dashboardGeneralPPTImportOrOutlineSessionProgressPopupHeaderText">
+				<span class="fd fd-content-editor-aihelper"></span>
+				<span class="pptimport">Converting PowerPoint slides into an e-learning course</span>
+				<span class="outlinesession">Convert the outline into a course</span>
+			</div>
+			<div class="dashboardGeneralPPTImportOrOutlineSessionProgressPopupHeaderClose generalPopupClose"><span class="fd fd-remove-new"></span></div>
+		</div>
+		<div class="dashboardGeneralPPTImportOrOutlineSessionProgressPopupContentContainer">
+			<div class="dashboardGeneralPPTImportOrOutlineSessionProgressPopupContentIcon"></div>
+			<div class="dashboardGeneralPPTImportOrOutlineSessionProgressPopupContentLoading">
+				<span class="fd fd-loader fd-spin"></span>
+			</div>
+			<div class="dashboardGeneralPPTImportOrOutlineSessionProgressPopupContentInProgress">
+				<div class="dashboardGeneralPPTImportOrOutlineSessionProgressPopupContentInProgressTitle">Conversion in progress</div>
+				<div class="dashboardGeneralPPTImportOrOutlineSessionProgressPopupContentInProgressBar">
+					<div class="dashboardGeneralPPTImportOrOutlineSessionProgressPopupContentInProgressBarValue">
+						<div class="dashboardGeneralPPTImportOrOutlineSessionProgressPopupContentInProgressBarValueBackground"></div>
+						<div class="dashboardGeneralPPTImportOrOutlineSessionProgressPopupContentInProgressBarValueGradient"></div>
+					</div>
+				</div>
+				<div class="dashboardGeneralPPTImportOrOutlineSessionProgressPopupContentInProgressNotification"><span class="dashboardGeneralPPTImportOrOutlineSessionProgressPopupContentInProgressNotificationEmailIcon"></span> You can close this window. You will be notified by email once your content is ready.</div>
+				<div class="dashboardGeneralPPTImportOrOutlineSessionProgressPopupContentInProgressCloseButton generalButtonNewDark generalPopupClose">Close</div>
+			</div>
+			<div class="dashboardGeneralPPTImportOrOutlineSessionProgressPopupContentCompleted">
+				<div class="dashboardGeneralPPTImportOrOutlineSessionProgressPopupContentCompletedTitle">Conversion has completed</div>
+				<div class="dashboardGeneralPPTImportOrOutlineSessionProgressPopupContentCompletedIcon"><span class="fd fd-checkmark-new"></span></div>
+				<div class="dashboardGeneralPPTImportOrOutlineSessionProgressPopupContentCompletedDescription">The new course is now ready for your review.</div>
+				<a href="content/{content_id}/" class="dashboardGeneralPPTImportOrOutlineSessionProgressPopupContentCompletedOpenContentButton generalButtonNewDark">Open the course in the Content editor <span class="fd fd-content-new-ppt-import-arrow-right"></span></a>
+			</div>
+		</div>
+	</div>
+</div>
+		</div>
+
+		<div class="dashboardFooter">
+						<img src="images/footer_logotype.svg" alt="JollyDeck" width="85" height="16" />
+						© 2013–2024 JollyDeck Ltd. All rights reserved. <a href="https://www.jollydeck.com/resources/terms-of-service/" target="_blank">Terms of Service</a> and <a href="https://www.jollydeck.com/resources/privacy-statement/" target="_blank">Privacy Statement</a>		</div>
+	</div>
+</div>
+
+
+
+<script type="text/javascript">
+var generalDatePickerFormat = "d\/m\/yy";
+var dashboardClientUserSegments = [];
+var dashboardClientUserSubsegments = [];
+var dashboardGeneralSuccessNotification = null;
+</script>
+
+
+<div class="templatesContainer">
+	
+<div class="template-commonIndexFilters">
+	<div class="commonIndexFiltersClose"><span class="fd fd-remove"></span></div>
+	<form action="" method="post">
+		<div class="commonIndexFiltersFilters"></div>
+		<div class="commonIndexFiltersButtons">
+			<span class="formSubmitButton generalButtonSmall generalButtonHeavy">Search</span>
+			<span class="formResetButton link">clear</span>
+		</div>
+	</form>
+</div>
+
+<div class="template-commonIndexPaginationContainer">
+	<div class="commonIndexPaginationPages">
+		<ul>
+			<li class="commonIndexPaginationPage link pagination-start"><span class="fd fd-arrow-double-left"></span> <span class="text">Start</span></li>
+			<li class="commonIndexPaginationPage link pagination-previous"><span class="fd fd-arrow-left"></span> <span class="text">Previous</span></li>
+			<li class="commonIndexPaginationPage link pagination-page template"></li>
+			<li class="commonIndexPaginationPage link pagination-next"><span class="text">Next</span> <span class="fd fd-arrow-right"></span></li>
+			<li class="commonIndexPaginationPage link pagination-end"><span class="text">End</span> <span class="fd fd-arrow-double-right"></span></li>
+		</ul>
+	</div>
+	<div class="commonIndexPaginationResults" data-translation="{&quot;language&quot;:&quot;en&quot;,&quot;translation&quot;:&quot;{count} total&quot;}"></div>
+	<div class="commonIndexPaginationShowAll link">Show all</div>
+	<div class="commonIndexPaginationShowByPages link">Show results by pages</div>
+</div>
+
+<div class="template-commonIndexNoEntries">There are no entries to display.</div>
+
+	<div class="template-generalPopupContainer">
+		<div class="generalPopupBackground"></div>
+		<div class="generalPopupContentContainer"></div>
+	</div>
+
+	<div class="template-dashboardNotification generalPopup">
+		<div class="generalPopupHeader"></div>
+		<div class="generalPopupBody"></div>
+		<div class="generalPopupFooter">
+			<span class="generalPopupCloseButton generalButton">Close</span>
+		</div>
+	</div>
+
+	<div class="template-dashboardConfirm generalPopup">
+		<div class="generalPopupHeader"></div>
+		<div class="generalPopupBody"></div>
+		<div class="generalPopupFooter">
+			<span class="generalPopupCloseButton generalPopupFooterLink link">Cancel</span>
+			<span class="generalPopupConfirmButton generalButton">Confirm</span>
+		</div>
+	</div>
+
+	<div class="template-dashboardSelect dashboardSelectCommonTextOnly dashboardSelectCommonOption">
+		<div class="dashboardSelectArrow"><span class="fd fd-arrow-down"></span></div>
+		<div class="dashboardSelectSelectedOption"></div>
+	</div>
+
+	<div class="template-dashboardSelectOptions"></div>
+	<div class="template-dashboardSelectOption dashboardSelectCommonOption"></div>
+	<div class="template-dashboardSelectOptgroup dashboardSelectCommonOption"></div>
+	<div class="template-dashboardSelectSeparator"></div>
+
+	<div class="template-dashboardActivitiesEntry">
+		<div class="dashboardActivitiesEntryIcon"><span class="fd"></span></div>
+		<div class="dashboardActivitiesEntryData">
+			<div>
+				<span class="dashboardActivitiesEntryUser"><a href="" class="dashboardActivitiesEntryUserLink"></a></span>
+				<span class="dashboardActivitiesEntryText"></span>
+				<span class="dashboardActivitiesEntryCampaign"><a href="" class="dashboardActivitiesEntryCampaignLink"></a></span>
+				<span class="dashboardActivitiesEntryContent"><a href="" class="dashboardActivitiesEntryCampaignLink"></a></span>
+				<span class="dashboardActivitiesEntryRelatedUserContainer">for <span class="dashboardActivitiesEntryRelatedUser"><a href="" class="dashboardActivitiesEntryRelatedUserLink"></a></span></span>
+			</div>
+			<div class="dashboardActivitiesEntryTimestamp"></div>
+		</div>
+	</div>
+
+	<div class="template-dashboardActivitiesEmpty">No activities yet.</div>
+
+	<div class="template-generalCampaignUserBatches">
+		<span class="generalCampaignUserBatchesIcons"></span>
+		<span class="generalCampaignUserBatchesResolvedCount"></span>/<span class="generalCampaignUserBatchesAllCount"></span>
+	</div>
+
+	<span class="template-generalCampaignUserBatchesIcon"></span>
+
+	<div class="template-dashboardGeneralCampaignUserPercentage">
+		<span class="dashboardGeneralCampaignUserPercentageCount"></span>
+		<span class="dashboardGeneralCampaignUserPercentageBarContainer">
+			<span class="dashboardGeneralCampaignUserPercentageBar"></span>
+		</span>
+		<span class="dashboardGeneralCampaignUserPercentageNumber"></span>
+	</div>
+
+	
+<span class="template-generalCampaignUserStatus link dark"></span>
+
+<span class="template-generalCampaignUserStatusIcon fd"></span>
+
+<script type="text/javascript">
+var generalCampaignStatuses = ["ontime","slightlydelayed","severelydelayed","abandoned","ignored","observationstarted","waitingforinvite","invited","deadlinepassed","failed","completed","archived"];
+var generalCampaignStatusesData = {"ontime":{"icon":"fd-campaign-user-status-started","description-app":true,"name":"On time","name-lowercase":"on time","description":"User completed all required tasks on time."},"slightlydelayed":{"icon":"fd-campaign-user-status-started","description-app":true,"name":"Slightly delayed","name-lowercase":"slightly delayed","description":"User has at least one task waiting to be completed for more than 24 hours."},"severelydelayed":{"icon":"fd-campaign-user-status-started","description-app":true,"name":"Severely delayed","name-lowercase":"severely delayed","description":"User has at least one task waiting to be completed for more than 3 days."},"abandoned":{"icon":"fd-campaign-user-status-abandoned","description-app":true,"name":"Abandoned","name-lowercase":"abandoned","description":"User has not finished the required tasks, no additional reminder will be sent from the system."},"ignored":{"icon":"fd-campaign-user-status-ignored","description-app":true,"name":"Ignored","name-lowercase":"ignored","description":"User has not started the required tasks for more than 7 days."},"observationstarted":{"icon":"fd-campaign-user-status-observationstarted","description-app":false,"name":"Observation started","name-lowercase":"observation started","description":"Line manager started observing."},"waitingforinvite":{"icon":"fd-campaign-user-status-waiting","description-app":true,"name":"Waiting for invite","name-lowercase":"waiting for invite","description":"User will receive invitation when the learning will be available."},"invited":{"icon":"fd-campaign-user-status-waiting","description-app":true,"name":"Invited","name-lowercase":"invited","description":"User received invitation in the last 24 hours but has not responded yet."},"deadlinepassed":{"icon":"fd-campaign-user-status-deadlinepassed","description-app":true,"name":"Missed deadline","name-lowercase":"missed deadline","description":"User has not finished the required tasks and the deadline date has passed."},"failed":{"icon":"fd-campaign-user-status-failed","description-app":true,"name":"Failed","name-lowercase":"failed","description":"User has failed to pass the required test."},"completed":{"icon":"fd-campaign-user-status-completed","description-app":true,"name":"Completed","name-lowercase":"completed","description":"User has completed all required learning tasks."},"archived":{"icon":"fd-campaign-user-status-completed","description-app":false,"name":"Archived","name-lowercase":"archived","description":"Line manager has archived the observation."}};
+</script>
+
+	<div class="template-dashboardCampaignUserStatusExplanation dashboardExplanationTooltip commonTooltip"></div>
+
+	<div class="template-dashboardGeneralUserSegment"></div>
+
+	<div class="template-dashboardGeneralUserSegmentGroup dashboardGeneralUserSegment">
+		<div class="dashboardGeneralUserSegmentGroupName"></div>
+		<div class="dashboardGeneralUserSegmentGroupDescription">
+			<span class="dashboardGeneralUserSegmentGroupDescriptionSelected"><span class="dashboardGeneralUserSegmentGroupCountSelected"></span>/<span class="dashboardGeneralUserSegmentGroupCountAll"></span></span>
+			<span class="dashboardGeneralUserSegmentGroupDescriptionAll" data-translation="{&quot;language&quot;:&quot;en&quot;,&quot;translation&quot;:&quot;All segments ({count})&quot;}"></span>
+		</div>
+	</div>
+
+	<div class="template-dashboardGeneralUserSegmentGroupManager dashboardGeneralUserSegmentGroup dashboardGeneralUserSegmentManager">
+		<div class="dashboardGeneralUserSegmentGroupName">Line managers</div>
+		<div class="dashboardGeneralUserSegmentGroupDescription">
+			<span class="dashboardGeneralUserSegmentGroupDescriptionAll" data-translation="{&quot;language&quot;:&quot;en&quot;,&quot;translation&quot;:&quot;All managers ({count})&quot;}"></span>
+		</div>
+	</div>
+
+	<div class="template-dashboardGeneralUserSegmentsMore link"><span class="dashboardGeneralUserSegmentsMoreCount"></span> more</div>
+
+	<div class="template-dashboardGeneralUserSegmentsExplanation dashboardExplanationTooltipExtendedSmall dashboardExplanationTooltipExtended left dashboardExplanationTooltip commonTooltip">
+		<div class="dashboardGeneralUserSegmentsExplanationHeader dashboardExplanationTooltipExtendedHeader">
+			<div class="commonTooltipClose"><span class="fd fd-remove"></span></div>
+			<span class="dashboardGeneralUserSegmentsExplanationHeaderUser"></span>
+		</div>
+		<div class="dashboardGeneralUserSegmentsExplanationBody dashboardExplanationTooltipExtendedBody"></div>
+	</div>
+
+	<span class="template-dashboardGeneralFormInlineEditTools">
+		<span class="dashboardGeneralFormInlineEditToolsIcon">
+			<span class="dashboardGeneralFormInlineEditToolsIconEdit"><span class="fd fd-general-edit"></span></span>
+			<span class="dashboardGeneralFormInlineEditToolsIconSubmit"><span class="fd fd-checkmark"></span></span>
+		</span>
+		<span class="dashboardGeneralFormInlineEditToolsFieldDuplicateContainer">
+			<span class="dashboardGeneralFormInlineEditToolsFieldDuplicate"></span>
+		</span>
+	</span>
+
+	<div class="template-dashboardGeneralToastNotification dashboardGeneralNotification">
+		<div class="dashboardGeneralToastNotificationText"></div>
+	</div>
+	<span class="template-dashboardGeneralToastNotificationTextSuccessGeneral">Changes have been saved</span>
+
+
+	<div class="template-dashboardHeaderUpdatesPopup">
+		<div class="dashboardHeaderUpdatesPopupCloseButton generalPopupClose"><span class="fd fd-remove-new"></span></div>
+		<div class="dashboardHeaderUpdatesPopupHeader">
+			<span class="dashboardHeaderUpdatesPopupHeaderIcon"></span> Latest updates		</div>
+		<div class="dashboardHeaderUpdatesPopupLoader"><span class="fd fd-spin fd-loader"></span></div>
+		<div class="dashboardHeaderUpdatesPopupEntries"></div>
+	</div>
+
+	<div class="template-dashboardHeaderUpdatesPopupEntry">
+		<div class="dashboardHeaderUpdatesPopupEntryTitle entry-title"></div>
+		<div class="dashboardHeaderUpdatesPopupEntryDate entry-date"></div>
+		<div class="dashboardHeaderUpdatesPopupEntryBody entry-body"></div>
+		<div class="dashboardHeaderUpdatesPopupEntryLink">
+			<a href="" target="_blank" class="dashboardHeaderUpdatesPopupEntryLinkLink dark"><span class="fd fd-dashboard-general-arrow-right"></span> Read more</a>
+		</div>
+		<div class="dashboardHeaderUpdatesPopupEntryTags"></div>
+	</div>
+
+	<span class="template-dashboardHeaderUpdatesPopupEntryTag-newfeature dashboardHeaderUpdatesPopupEntryTag tag-newfeature">New feature</span>
+	<span class="template-dashboardHeaderUpdatesPopupEntryTag-improvement dashboardHeaderUpdatesPopupEntryTag tag-improvement">Improvement</span>
+	<span class="template-dashboardHeaderUpdatesPopupEntryTag-app dashboardHeaderUpdatesPopupEntryTag product tag-app"><span class="dashboardHeaderUpdatesPopupEntryTagIcon"></span> Learning app</span>
+	<span class="template-dashboardHeaderUpdatesPopupEntryTag-contenteditor dashboardHeaderUpdatesPopupEntryTag product tag-contenteditor"><span class="dashboardHeaderUpdatesPopupEntryTagIcon"></span> Content editor</span>
+	<span class="template-dashboardHeaderUpdatesPopupEntryTag-lms dashboardHeaderUpdatesPopupEntryTag product tag-lms"><span class="dashboardHeaderUpdatesPopupEntryTagIcon"></span> LMS</span>
+
+		<div class="template-dashboardHeaderHelpPopup">
+		<div class="dashboardHeaderHelpPopupCloseButton generalPopupClose"><span class="fd fd-remove-new"></span></div>
+		<div class="dashboardHeaderHelpPopupHeader">Get help with JollyDeck</div>
+		<div class="dashboardHeaderHelpPopupEntries">
+						<a href="https://www.jollydeck.com/academy/getting-started/" target="_blank" class="dashboardHeaderHelpPopupEntry getting-started">
+				<span class="dashboardHeaderHelpPopupEntryTitle">
+					<span class="dashboardHeaderHelpPopupEntryTitleIcon"></span>
+					<span class="dashboardHeaderHelpPopupEntryTitleText">Getting started</span>
+				</span>
+				<span class="dashboardHeaderHelpPopupEntryDescription">A quick guide to what you can do with JollyDeck</span>
+			</a>
+						<a href="https://www.jollydeck.com/academy/creating-content/" target="_blank" class="dashboardHeaderHelpPopupEntry creating-content">
+				<span class="dashboardHeaderHelpPopupEntryTitle">
+					<span class="dashboardHeaderHelpPopupEntryTitleIcon"></span>
+					<span class="dashboardHeaderHelpPopupEntryTitleText">Creating content</span>
+				</span>
+				<span class="dashboardHeaderHelpPopupEntryDescription">Insights into creating engaging and interactive learning content</span>
+			</a>
+						<a href="https://www.jollydeck.com/academy/collaboration/" target="_blank" class="dashboardHeaderHelpPopupEntry collaboration">
+				<span class="dashboardHeaderHelpPopupEntryTitle">
+					<span class="dashboardHeaderHelpPopupEntryTitleIcon"></span>
+					<span class="dashboardHeaderHelpPopupEntryTitleText">Collaboration</span>
+				</span>
+				<span class="dashboardHeaderHelpPopupEntryDescription">How to invite teammates to comment and edit content with you</span>
+			</a>
+						<a href="https://www.jollydeck.com/academy/publishing/" target="_blank" class="dashboardHeaderHelpPopupEntry publishing">
+				<span class="dashboardHeaderHelpPopupEntryTitle">
+					<span class="dashboardHeaderHelpPopupEntryTitleIcon"></span>
+					<span class="dashboardHeaderHelpPopupEntryTitleText">Publishing</span>
+				</span>
+				<span class="dashboardHeaderHelpPopupEntryDescription">How to publish your content directly from the Editor or export it into an LMS</span>
+			</a>
+						<a href="https://www.jollydeck.com/academy/ai-copilot/" target="_blank" class="dashboardHeaderHelpPopupEntry ai-copilot">
+				<span class="dashboardHeaderHelpPopupEntryTitle">
+					<span class="dashboardHeaderHelpPopupEntryTitleIcon"></span>
+					<span class="dashboardHeaderHelpPopupEntryTitleText">AI Copilot</span>
+				</span>
+				<span class="dashboardHeaderHelpPopupEntryDescription">Introducing your personal AI authoring assistant</span>
+			</a>
+						<a href="https://www.jollydeck.com/contact/" target="_blank" class="dashboardHeaderHelpPopupEntry support">
+				<span class="dashboardHeaderHelpPopupEntryTitle">
+					<span class="dashboardHeaderHelpPopupEntryTitleIcon"></span>
+					<span class="dashboardHeaderHelpPopupEntryTitleText">Contact support</span>
+				</span>
+				<span class="dashboardHeaderHelpPopupEntryDescription">When you need help, just let us know!</span>
+			</a>
+					</div>
+	</div>
+
+	<div class="template-dashboardGeneralEditorLinkPopup generalPopupWide generalPopup">
+		<form action="" method="post">
+		<div class="generalPopupHeader">
+			<span class="dashboardGeneralEditorLinkPopupIcon"></span>Edit link		</div>
+		<div class="generalPopupBody">
+			<fieldset>
+				<div class="dashboardGeneralEditorLinkPopupFormLabel">Text to display:</div>
+				<div><input type="text" name="text" class="wide" /></div>
+				<div class="formError">Text cannot be empty.</div>
+			</fieldset>
+			<fieldset>
+				<div class="dashboardGeneralEditorLinkPopupFormLabel">Link to:</div>
+				<div><input type="text" name="href" class="wide" /></div>
+				<div class="formError">
+					<span class="formErrorMessage error-empty">Link cannot be empty.</span>
+					<span class="formErrorMessage error-invalid">Please enter link in valid format.</span>
+				</div>
+			</fieldset>
+			<fieldset class="dashboardGeneralEditorLinkPopupFormLinkTypes">
+			</fieldset>
+		</div>
+		<div class="generalPopupFooter">
+			<span class="generalPopupCloseButton generalPopupFooterLink link">Cancel</span>
+			<span class="dashboardGeneralEditorLinkPopupSubmitButton formSubmitButton generalPopupConfirmButton generalButton">Save</span>
+		</div>
+		</form>
+	</div>
+
+	<div class="template-dashboardGeneralEditorLinkPopupFormLinkType">
+		<label><input type="radio" name="linktype" class="native" /> <div class="dashboardGeneralEditorLinkPopupFormLinkTypeDescription"></div></label>
+	</div>
+
+	<div class="template-dashboardGeneralEmailPreviewContentLabelLinkTooltip">This is a personalized link.</div>
+
+	<span class="template-dashboardGeneralCampaignEntryContent">
+		<span class="dashboardGeneralCampaignEntryContentIcon fd"></span>
+		<span class="dashboardGeneralCampaignEntryContentName"></span>
+	</span>
+</div>
+
+<script type="text/javascript" src="../js/jquery.min.js?cache=1d32b93c"></script>
+<script type="text/javascript" src="../pack_jscss.php?js&amp;common&amp;cache=1d32b93c"></script>
+<script type="text/javascript" src="../pack_jscss.php?js&amp;general&amp;cache=1d32b93c"></script>
+<script type="text/javascript" src="pack_jscss.php?js&amp;cache=1d32b93c"></script>
+</body>
+</html>

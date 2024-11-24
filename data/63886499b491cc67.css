@@ -1,0 +1,61 @@
+
+
+.generalInformationUnit {color: #393B48;}
+.generalInformationUnit a, .generalInformationUnit .link {color: #314668;}
+
+.generalInformationUnitBlockQuestionGeneralContent {color: #393B48;}
+
+.generalInformationUnitBlockQuestionGeneralResult > .correct-yes {color: #9DD9D2;}
+.generalInformationUnitBlockQuestionGeneralResult > .correct-no {color: #C97B84;}
+.generalInformationUnitRowInteractiveNew .generalInformationUnitBlockQuestionGeneralResult > .correct-yes {color: #9DD9D2;}
+.generalInformationUnitRowInteractiveNew .generalInformationUnitBlockQuestionGeneralResult > .correct-no {color: #C97B84;}
+.generalInformationUnitBlockQuestionGeneralResultIcon.correct-yes {border-color: #9DD9D2;}
+.generalInformationUnitBlockQuestionGeneralResultIcon.correct-no {border-color: #C97B84;}
+
+.generalInformationUnitBlockQuestionFillInBlankQuestionFieldField.correct-yes {border-color: #9DD9D2 !important; color: #9DD9D2;}
+.generalInformationUnitBlockQuestionFillInBlankQuestionFieldField.correct-no {border-color: #C97B84 !important; color: #C97B84;}
+.generalInformationUnitBlockQuestionFillInDropdownQuestionFieldField.correct-yes {border-color: #9DD9D2 !important; color: #9DD9D2;}
+.generalInformationUnitBlockQuestionFillInDropdownQuestionFieldField.correct-no {border-color: #C97B84 !important; color: #C97B84;}
+
+.generalInformationUnitRowInteractive {color: #314668; background-color: #F0EDE6;}
+
+.appGeneralCourseHeaderProgressGraphCircle {color: #314668;}
+.appGeneralCourseHeaderProgressGraphResolved {color: #314668;}
+
+.appGeneralCourseMenuBatchUnit.active {background-color: rgba(49, 70, 104, 0.08);}
+.appGeneralCourseMenuBatchUnitIconActive {color: #314668;}
+
+.appGeneralCourseSplashScreenAnimationDot.odd {background-color: #A39289;}
+.appGeneralCourseSplashScreenAnimationDot.even {background-color: #314668;}
+
+.generalInformationUnitBlockHeading.gradient .generalInformationUnitBlockHeadingText {background-image: url('../data/af43b3fb1de2b4f0.jpg');}
+.generalInformationUnitBlockIcon.gradient .generalInformationUnitBlockIconIcon {background-image: url('../data/af43b3fb1de2b4f0.jpg');}
+.generalInformationUnitBlockIconInvertedBackgroundImage {--href: 'https://learn.jollydeck.com/content/templates/template-smart_casual_background1.jpg';}
+
+.generalInformationUnitBlockQuestionTrueFalseAnswerButton.active.correct{border-color: #9DD9D2; background-color: rgba(157, 217, 210, 0.2) !important;}
+.generalInformationUnitBlockQuestionTrueFalseAnswerButton.active.correct span{color: #9DD9D2;}
+.generalInformationUnitBlockQuestionTrueFalseAnswerButton.active.wrong{border-color: #C97B84; background-color:rgba(201, 123, 132, 0.2) !important;}
+.generalInformationUnitBlockQuestionTrueFalseAnswerButton.active.wrong span{color: #C97B84;}
+.generalInformationUnitBlockQuestionTrueFalseAnswerButtonContentCorrectSprite > svg > path{fill: #9DD9D2;}
+
+.generalInformationUnitBlockQuestionMultipleChoiceAnswerButton.active.disabled.correct{	border-color: #9DD9D2;	background-color: rgba(157, 217, 210, 0.2) !important;}
+.generalInformationUnitBlockQuestionMultipleChoiceAnswerButton.active.disabled.wrong{ border-color: #C97B84; background-color: rgba(201, 123, 132, 0.2) !important;}
+.generalInformationUnitBlockQuestionMultipleChoiceAnswerButton.active .generalInformationUnitBlockQuestionMultipleChoiceAnswerButtonContentIconCorrect {color: #9DD9D2;}
+.generalInformationUnitBlockQuestionMultipleChoiceAnswerButton.active .generalInformationUnitBlockQuestionMultipleChoiceAnswerButtonContentIconWrong {color: #C97B84;}
+.generalInformationUnitBlockQuestionMultipleChoiceAnswerButtonAnimation.correct{background-color: rgba(157, 217, 210, 0.2);}
+.generalInformationUnitBlockQuestionMultipleChoiceAnswerButtonAnimation.wrong{background-color: rgba(201, 123, 132, 0.2);}
+.generalInformationUnitBlockQuestionMultipleChoiceAnswerButtonContentIconCorrectSprite > svg > path{fill: #9DD9D2;}
+
+.generalInformationUnitBlockQuestionMultipleChoiceAnswerStatisticsItemValueBar{background-color: rgba(49, 70, 104, 0.1);}
+.generalInformationUnitBlockQuestionMultipleChoiceAnswerStatisticsItemValueBarValue{background-color: #314668;}
+.generalInformationUnitBlockQuestionMultipleChoiceAnswerStatisticsItemValueBarSprite > svg > path {fill: #314668;}
+.generalInformationUnitBlockQuestionMultipleChoiceAnswerStatisticsItemValueBarSprite > svg > g > path {fill: #314668;}
+
+.generalInformationUnitBlockQuestionOrderingAnswerButton.sorted.disabled.correct{border-color: #9DD9D2; background-color: rgba(157, 217, 210, 0.2) !important;}
+.generalInformationUnitBlockQuestionOrderingAnswerButton.sorted.disabled.wrong{border-color: #C97B84; background-color: rgba(201, 123, 132, 0.2) !important;}
+.generalInformationUnitBlockQuestionOrderingAnswerButton.sorted.correct .generalInformationUnitBlockQuestionOrderingAnswerButtonIconCorrect{color: #9DD9D2;}
+.generalInformationUnitBlockQuestionOrderingAnswerButtonIconWrong{font-size: 30px; color: #C97B84;}
+.generalInformationUnitBlockQuestionOrderingAnswerButton.sorted.disabled.correct .generalInformationUnitBlockQuestionOrderingAnswerButtonPosition{color: #9DD9D2;}
+.generalInformationUnitBlockQuestionOrderingAnswerButton.sorted.disabled.wrong .generalInformationUnitBlockQuestionOrderingAnswerButtonPosition{color: #C97B84;}
+.generalInformationUnitBlockQuestionOrderingAnswerButtonIconCorrectSprite > svg > path{fill: #9DD9D2;}
+

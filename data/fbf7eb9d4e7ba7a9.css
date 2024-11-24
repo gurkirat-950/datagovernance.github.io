@@ -1,0 +1,216 @@
+.appGeneralCourse {background-color: white; overflow: hidden;}
+.appGeneralCourse.special {}
+.appGeneralCourse.type-classic {}
+.appGeneralCourse.type-reference {}
+.appGeneralCourseSplashScreen {position: absolute; z-index: 100000; top: 0px; left: 0px; display: flex; align-items: center; width: 100%; height: 100%; background-color: white;}
+.appGeneralCourseSplashScreenInner {width: 100%;}
+.appGeneralCourseSplashScreenCourse {width: 180px; margin: 0px auto;}
+.appGeneralCourseSplashScreenCourseImage {margin-bottom: 4px;}
+.appGeneralCourseSplashScreenCourseImage img {width: 100%; border-radius: 10px;}
+.appGeneralCourseSplashScreenCourseName {line-height: 26px; font-size: 16px; font-weight: 600; color: #253A4B;}
+.appGeneralCourseSplashScreenCourseSurtitle {font-size: 14px; color: #6C7277;}
+.appGeneralCourseSplashScreenAnimation {position: relative; width: 30px; height: 30px; margin: 60px auto 0px;}
+.appGeneralCourseSplashScreenAnimationDot {position: absolute; display: inline-block; width: 10px; height: 10px; border-radius: 100%; transition: background-color 300ms;}
+.appGeneralCourseSplashScreenAnimationDot.odd {background-color: #85817A;}
+.appGeneralCourseSplashScreenAnimationDot.even {background-color: #2095DC;}
+.appGeneralCourse .appGeneralHeaderMobileMenuIcon{display: block;}
+.appGeneralCourse .appGeneralHeaderMobileContentHomeLogo{display: none;}
+.appGeneralCourse.special .appGeneralHeaderLogo {display: none;}
+.appGeneralCourse.special .appGeneralHeaderCampaign .appGeneralHeaderSeparator {display: none;}
+.appGeneralCourse.special .appGeneralHeaderCampaign .appGeneralHeaderCampaignCampaignIcon {display: none;}
+.appGeneralCourse.special .appGeneralCourseHeaderProgress {display: none !important;}
+.appGeneralCourse.special .appGeneralHeaderUserWrap {display: none;}
+.appGeneralCourse:not(.special) .appGeneralCourseHeaderCloseButton {display: none;}
+.appGeneralCourseHeaderAdditional {}
+.appGeneralCourseHeaderProgress {display: none; margin-right: 30px; white-space: nowrap; color: #A3AAB1;}
+.appGeneralCourseHeaderProgress.resolved {}
+.appGeneralCourseHeaderProgressGraph {display: inline-block; position: relative; width: 28px; height: 28px; line-height: 26px; margin-right: 5px; vertical-align: -8px;}
+.appGeneralCourseHeaderProgressGraph > * {position: absolute; width: 100%; height: 100%;}
+.appGeneralCourseHeaderProgressGraphCircle {color: #2095DC;}
+.appGeneralCourseHeaderProgressGraphPercentage {display: none; text-align: center; color: #EDF0F2;}
+.appGeneralCourseHeaderProgressGraphPercentageValue {}
+.appGeneralCourseHeaderProgressGraphResolved {margin-top: 3px; font-size: 16px; text-align: center; color: #2095DC;}
+.appGeneralCourseHeaderProgress:not(.resolved) .appGeneralCourseHeaderProgressGraphResolved {display: none;}
+.appGeneralCourseHeaderProgressLabel {}
+.appGeneralCourseHeaderProgressPercentage {color: #EDF0F2;}
+.appGeneralCourseHeaderProgressPercentageValue {}
+.appGeneralCourseHeaderCloseButton {float: right; width: 34px; min-width: 34px; height: 34px; line-height: 38px; border: 1px solid white; margin: 7px 0px; font-size: 14px; text-align: center; border-radius: 100%; cursor: pointer;}
+.appGeneralCourseMobileHeaderContent {color: #EDF0F2;}
+.appGeneralCourseMobileHeaderBackLink {display: block; width: 100%; height: 100%; background: url('../data/41ce9c027b2fdc2a.svg') no-repeat center;}
+.appGeneralCourseInner {display: flex; width: 100%; height: calc(100% - 50px);}
+.appGeneralCourseInnerColumn {display: flex; flex-direction: column; height: 100%;}
+.appGeneralCourseInnerColumn.content {flex-grow: 1; min-width: 0px;}
+.appGeneralCourseInnerColumn.menu {flex-shrink: 0; border: 0px solid #717B82; border-left-width: 1px;}
+.appGeneralCourse.type-reference .appGeneralCourseInnerColumn.content {order: 2;}
+.appGeneralCourse.type-reference .appGeneralCourseInnerColumn.menu {order: 1; border-left-width: 0px; border-right-width: 1px;}
+.appGeneralCourse.special .appGeneralCourseInnerColumn.content {width: 100%;}
+.appGeneralCourse.special .appGeneralCourseInnerColumn.menu {display: none;}
+.appGeneralCourseInnerColumn > div:first-child {height: 100%; overflow-y: auto; scrollbar-width: thin;}
+.appGeneralCourseContent {width: 100%;}
+.appGeneralCourseContentUnit {}
+.appGeneralCourseContentClose {}
+.appGeneralCourseContentCloseButton {}
+.appGeneralCourseContentNavigationDesktop {padding: 40px 0px; border-top: 1px solid #C0C0C0; border-bottom: 1px solid #E0E0E0; text-align: center; background-color: #F3F4F4;}
+.appGeneralCourseContentNavigationDesktopButton {display: inline-block; margin: 0px 20px; padding: 11px 19px; border: 1px solid #1A2C37; font-size: 18px; text-align: center; color: #1A2C37; background-color: white; border-radius: 12px; cursor: pointer; transition: all 300ms;}
+.appGeneralCourseContentNavigationDesktopButton:hover {transform: scale(1.0333); box-shadow: 7px 5px 10px 0px rgba(26, 44, 55, 0.15); }
+.appGeneralCourseContentNavigationDesktopButton.disabled, .appGeneralCourseContentNavigationDesktopButton.loading {border-color: #A3A3A3; color: #A3A3A3; pointer-events: none;}
+.appGeneralCourseContentNavigationDesktopButton .fd {font-size: 16px; vertical-align: -1px;}
+.appGeneralCourseContentNavigationDesktopButton .fd-app-general-course-arrow-left {margin-right: 6px;}
+.appGeneralCourseContentNavigationDesktopButton .fd-app-general-course-arrow-right {margin-left: 6px;}
+.appGeneralCourseContentFooterBoundary {height: 1px; margin-bottom: -1px;}
+.appGeneralCourseContentFooter {position: static; bottom: -220px; z-index: 1000; flex-grow: 1; min-height: 250px; border-top: 1px solid #E0E0E0; font-size: 14px; background-color: white; cursor: default; transition: all 300ms;}
+.appGeneralCourseContentFooter.hidden {display: none !important;}
+.appGeneralCourseContentFooter.collapsed {}
+.appGeneralCourseContentFooter.expanded {}
+.appGeneralCourseContentFooter.pinned {}
+.appGeneralCourseContentFooter.pinned-temporary {position: static !important;}
+.appGeneralCourseContentFooter.withnavigation {}
+.appGeneralCourseContentFooterInner {width: 80%; margin: 0px 10%;}
+.appGeneralCourseContentFooterTop {display: flex; width: 100%; align-items: center; height: 30px; transition: all 300ms;}
+.appGeneralCourseContentFooterSide {display: flex; align-items: center; flex-grow: 1; flex-shrink: 0; flex-basis: 0px; white-space: nowrap;}
+.appGeneralCourseContentFooterUnit {margin-right: 20px; color: #6C7277; transition: all 300ms;}
+.appGeneralCourseContentFooterAddFeedbackButton {display: inline-block; line-height: 30px; padding: 0px 12px; cursor: pointer;}
+.appGeneralCourseContentFooterAddFeedbackButton:hover {color: white; background-color: #1A2C37;}
+.appGeneralCourseContentFooterAddFeedbackButton .fd {margin-right: 4px; font-size: 70%;}
+.appGeneralCourseContentFooterNavigationMobile {display: none; flex-shrink: 0; user-select: none;}
+.appGeneralCourseContentFooterNavigationMobileButton {display: inline-block; width: 50px; height: 50px; line-height: 50px; margin: 0px 10px; font-size: 13px; text-align: center; cursor: pointer;}
+.appGeneralCourseContentFooterNavigationMobileButton:hover {color: white; background-color: #1A2C37;}
+.appGeneralCourseContentFooterNavigationMobileButton.disabled {color: #E0E0E0; pointer-events: none;}
+.appGeneralCourseContentFooterNavigationMobileButton .fd {line-height: 50px;}
+.appGeneralCourseContentFooterNavigationMobileUnit {color: #A3AAB1; vertical-align: 2px;}
+.appGeneralCourseContentFooterFeedback {font-size: 18px;}
+.appGeneralCourseMenu {width: 260px; padding-bottom: 30px;}
+.appGeneralCourseMenuTitle {margin: 25px 10px 30px 26px; font-size: 22px; font-weight: bold;}
+.appGeneralCourseMenuBatch {padding-left: 8px;}
+.appGeneralCourseMenuBatch.collapsed {}
+.appGeneralCourseMenuBatch.expanded {}
+.appGeneralCourseMenuBatch.collapsed .expanded {display: none;}
+.appGeneralCourseMenuBatch.expanded .collapsed {display: none;}
+.appGeneralCourseMenuBatch.nobatches {}
+.appGeneralCourseMenuBatch.animate {}
+.appGeneralCourseMenuBatchHeader {display: flex; color: #1A2C37; padding: 15px 5px 15px 8px; cursor: pointer;}
+.appGeneralCourseMenuBatch.nobatches .appGeneralCourseMenuBatchHeader {display: none;}
+.appGeneralCourseMenuBatchHeaderNumber {flex: none; width: 28px; height: 28px; line-height: 26px; margin-right: 8px; font-size: 14px; font-weight: 600; text-align: center; background-color: #EDF0F2; border-radius: 100%;}
+.appGeneralCourseMenuBatchHeaderName {flex-grow: 1; margin-top: 4px; font-size: 14px; font-weight: 600;}
+.appGeneralCourseMenuBatchHeaderToggleIcon {flex: none; margin: 4px 8px 0px; font-size: 18px;}
+.appGeneralCourseMenuBatchUnits {}
+.appGeneralCourseMenuBatchUnit {display: flex; padding: 16px 0px; font-size: 14px; background-color: white; cursor: pointer;}
+.appGeneralCourseMenu.animate .appGeneralCourseMenuBatchUnit {transition: background-color 330ms 170ms;}
+.appGeneralCourseMenuBatchUnit:not(.disabled):not(.active):hover {background-color: #F2F2F2;}
+.appGeneralCourseMenuBatchUnit.active {background-color: rgba(32, 149, 220, 0.08);}
+.appGeneralCourseMenuBatchUnit.resolved {}
+.appGeneralCourseMenuBatchUnit.disabled {color: #A3AAB1; cursor: default;}
+.appGeneralCourseMenuBatchUnitIcon {flex: none; width: 36px; height: 16px; text-align: center;}
+.appGeneralCourseMenuBatchUnitIconActive {display: none; font-size: 16px; color: #2095DC;}
+.appGeneralCourseMenuBatchUnit.active .appGeneralCourseMenuBatchUnitIconActive {display: inline-block;}
+.appGeneralCourseMenuBatchUnitIconResolved {display: none; font-size: 16px;}
+.appGeneralCourseMenuBatchUnit.resolved:not(.active) .appGeneralCourseMenuBatchUnitIconResolved {display: inline-block;}
+.appGeneralCourseMenuBatchUnitTitle {padding-right: 10px;}
+.appGeneralCourseDashboardLink {position: absolute; right: 20px; bottom: 20px;}
+.appGeneralCourseDashboardLink.expanded {}
+.appGeneralCourseDashboardLink.collapsed {}
+.appGeneralCourseDashboardLink.expanded .collapsed {display: none;}
+.appGeneralCourseDashboardLink.collapsed .expanded {display: none;}
+.appGeneralCourseDashboardLinkFrame {display: flex; border: 2px solid white; font-size: 14px; color: white; background-color: #1A2C37; border-radius: 10px; box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.20), 0px 1px 10px 0px rgba(0, 0, 0, 0.12), 0px 4px 5px 0px rgba(0, 0, 0, 0.14); }
+.appGeneralCourseDashboardLinkFrameLeft {display: flex; flex-direction: column;}
+.appGeneralCourseDashboardLinkFrameLeft > * {display: block; padding: 0px 8px; border-bottom: 2px solid white; text-decoration: none !important; color: inherit !important; cursor: pointer;}
+.appGeneralCourseDashboardLink.expanded .appGeneralCourseDashboardLinkFrameLeft > * {height: 32px; line-height: 32px;}
+.appGeneralCourseDashboardLink.collapsed .appGeneralCourseDashboardLinkFrameLeft > * {height: 36px; line-height: 36px;}
+.appGeneralCourseDashboardLinkFrameLeft > *:last-child {border-bottom: none;}
+.appGeneralCourseDashboardLinkFrameLeft .fd {text-align: center;}
+.appGeneralCourseDashboardLink.expanded .appGeneralCourseDashboardLinkFrameLeft .fd {width: 16px; font-size: 16px; margin-right: 5px; vertical-align: -3px;}
+.appGeneralCourseDashboardLink.collapsed .appGeneralCourseDashboardLinkFrameLeft .fd {width: 20px; font-size: 20px; vertical-align: -4px;}
+.appGeneralCourseDashboardLinkFrameRight {display: flex; padding: 10px; font-size: 12px; border-left: 2px solid white;}
+.appGeneralCourseDashboardLinkFrameDismiss {cursor: pointer;}
+.appGeneralCourseDashboardLinkEditLink {}
+.appGeneralCourseDashboardLinkUseAsTemplateInfo {}
+.appGeneralCourseUseAsTemplatePopup {position: absolute; bottom: 50px; right: 50px; width: 445px; padding: 40px; text-align: center; border-radius: 20px;}
+.appGeneralCourseUseAsTemplatePopupTitle {margin-bottom: 15px; font-size: 25px; font-weight: bold;}
+.appGeneralCourseUseAsTemplatePopupImage {display: inline-block; width: 129px; height: 103px; margin-bottom: 10px; background: url('../data/4073b007483b64d2.svg') no-repeat;}
+.appGeneralCourseUseAsTemplatePopupDescription {margin-bottom: 25px; font-size: 18px;}
+.appGeneralCourseUseAsTemplatePopupButtons {}
+.appGeneralCourseUseAsTemplatePopupCancelButton {}
+.appGeneralCourseUseAsTemplatePopupConfirmButton {margin-left: 30px;}
+.appGeneralCourseBatchEndStatusPopupSectionNextContent {}
+.appGeneralCourseBatchEndStatusPopupSectionNextContentHeader {margin-bottom: 25px; text-align: center;}
+.appGeneralCourseBatchEndStatusPopupSectionNextContentHeaderIcon {display: inline-block; width: 24px; height: 24px; margin-bottom: 2px; background: url('../data/9b4a5bacce43b345.svg') no-repeat;}
+.appGeneralCourseBatchEndStatusPopupSectionNextContentHeaderIntroduction {margin-bottom: 5px; font-size: 14px; font-weight: 600;}
+.appGeneralCourseBatchEndStatusPopupSectionNextContentHeaderName {margin-bottom: 4px; font-size: 25px;}
+.appGeneralCourseBatchEndStatusPopupSectionNextContentHeaderDescription {font-size: 18px;}
+.appGeneralCourseBatchEndStatusPopupSectionNextContentHeaderSchedule {display: inline-block; margin-top: 30px; padding: 4px 10px; border: 1px solid #1A2C37; font-size: 16px; color: #1A2C37; border-radius: 5px;}
+.appGeneralCourseBatchEndStatusPopupSectionNextContentHeaderSchedule .fd {margin-right: 5px; font-size: 12px;}
+.appGeneralCourseBatchEndStatusPopupSectionNextContentHeaderScheduleDate {}
+.appGeneralCourseBatchEndStatusPopupSectionNextContentHeaderScheduleDateIcon {}
+.appGeneralCourseBatchEndStatusPopupSectionNextContentHeaderScheduleDateSet {}
+.appGeneralCourseBatchEndStatusPopupSectionNextContentHeaderScheduleDateSetDay {text-transform: uppercase;}
+.appGeneralCourseBatchEndStatusPopupSectionNextContentHeaderScheduleDateNotSet {}
+.appGeneralCourseBatchEndStatusPopupSectionNextContentHeaderScheduleTime {margin-left: 10px;}
+.appGeneralCourseBatchEndStatusPopupSectionNextContentHeaderScheduleTimeIcon {}
+.appGeneralCourseBatchEndStatusPopupSectionNextContentHeaderScheduleTimeEndTime {}
+.appGeneralCourseBatchEndStatusPopupSectionNextContentButtonContainer {margin-top: 55px; text-align: center;}
+.appGeneralCourseBatchEndStatusPopupSectionNextContentButton {min-width: 120px;}
+.appGeneralCourseBatchEndStatusPopupSectionNextContentOptions {display: table; width: 100%; table-layout: fixed;}
+.appGeneralCourseBatchEndStatusPopupSectionNextContentOptions > div {display: table-cell; vertical-align: top;}
+.appGeneralCourseBatchEndStatusPopupSectionNextContentOption {padding: 45px 40px 0px;}
+.appGeneralCourseBatchEndStatusPopupSectionNextContentOptionTitle {margin-bottom: 20px; font-size: 25px; font-weight: bold;}
+.appGeneralCourseBatchEndStatusPopupSectionNextContentOptionDescription {min-height: 75px; margin-bottom: 25px;}
+.appGeneralCourseBatchEndStatusPopupSectionNextContentOptionDescription.nextcontent {}
+.appGeneralCourseBatchEndStatusPopupSectionNextContentOptionDescription b {font-weight: 600;}
+.appGeneralCourseBatchEndStatusPopupSectionNextContentOptionButton {min-width: 120px;}
+.appGeneralCourseBatchEndStatusPopupSectionNextContentOptionButtonAssignNextBatch {}
+.appGeneralCourseBatchEndStatusPopupSectionNextContentOptionButtonExit {}
+.appGeneralCourseBatchEndStatusPopupSectionNextContentOptionsOr {width: 50px; font-size: 20px; font-weight: bold; text-align: center;}
+.appGeneralCourseBatchEndStatusPopupSectionNextContentOptionsOrLine {width: 0px; height: 120px; margin: 2px auto; border-right: 2px solid #282828;}
+.appGeneralCourseBatchEndStatusPopupSectionResolved {text-align: center;}
+.appGeneralCourseBatchEndStatusPopupSectionResolvedIcon {height: 65px; margin-bottom: 30px; font-size: 68px; color: #2095DC;}
+.appGeneralCourseBatchEndStatusPopupSectionResolvedTitle {margin-bottom: 35px; font-size: 25px; font-weight: bold;}
+.appGeneralCourseBatchEndStatusPopupSectionResolvedDescription {margin-bottom: 40px; font-size: 25px; font-weight: bold;}
+.appGeneralCourseBatchEndStatusPopupSectionResolvedCampaignName {margin: 0px 50px 50px; padding-bottom: 5px; border-bottom: 1px solid #37444C; font-size: 25px; color: #6C7277;}
+.appGeneralCourseBatchEndStatusPopupSectionResolvedCampaignCertificate {display: flex; gap: 40px; justify-content: start; margin: 0px 50px 30px; padding: 16px 40px; background: #EDF0F2; border-radius: 5px; text-align: left;}
+.appGeneralCourseBatchEndStatusPopupSectionResolvedCampaignCertificateIcon {line-height: 70px; font-size: 82px;}
+.appGeneralCourseBatchEndStatusPopupSectionResolvedCampaignCertificateData {}
+.appGeneralCourseBatchEndStatusPopupSectionResolvedCampaignCertificateDataDescription {margin-bottom: 20px;}
+.appGeneralCourseBatchEndStatusPopupSectionResolvedCampaignCertificateDataDownloadButton {}
+.appGeneralCourseBatchEndStatusPopupSectionResolvedCampaignCertificateDataDownloadButton .fd {margin-right: 5px; vertical-align: -4px;}
+.appGeneralCourseBatchEndStatusPopupSectionResolvedButtonContainer {margin: 50px 0px 20px;}
+.appGeneralCourseBatchEndStatusPopupSectionResolvedButton {min-width: 120px;}
+.appGeneralCourseMobileMenu {position: relative; left: 0px; top: 0px; display: flex; flex-direction: column; width: 100%; height: 100%; background-color: white;}
+.appGeneralCourseMobileMenuHeader {display: flex; align-items: center; flex: none; margin: 0px 8px 20px; padding: 15px 0px; border-bottom: 1px solid #F2F2F2;}
+.appGeneralCourseMobileMenuHeaderTitle {flex-grow: 1; margin-left: 15px; font-size: 22px; font-weight: bold;}
+.appGeneralCourseMobileMenuHeaderClose {flex: none; width: 20px; height: 20px; line-height: 24px; margin-right: 5px; text-align: center; cursor: pointer;}
+.appGeneralCourseMobileMenuMenu {flex-grow: 1; overflow-y: auto; scrollbar-width: thin;}
+.appGeneralCourseMobileMenuExit {flex: none; display: block; padding: 16px; font-weight: 600; text-decoration: none !important; color: inherit !important; border-top: 1px solid #F2F2F2; box-shadow: 0px -4px 5px rgba(185, 185, 185, 0.3);}
+.appGeneralCourseMobileMenuExitIcon {display: inline-block; width: 15px; height: 16px; margin-right: 15px; background: url('../data/2b677be0d473e4b6.svg') no-repeat; vertical-align: -2px;}
+.appGeneralCourseInformationUnitSpecialCloseAnimationRectangle {position: fixed; z-index: 99999; top: 0px; left: 0px; width: 100%; height: 100%; background-color: white;}
+@media (max-width: 720px) {
+.appGeneralCourseSplashScreenAnimation {margin-top: 45px;}
+.appGeneralCourseHeaderProgress{margin: 0; font-weight: 600; font-size: 12px; line-height: 15px;}
+.appGeneralCourseHeaderProgressGraph {width: 37px; height: 37px; line-height: 36px;}
+.appGeneralCourseHeaderProgress:not(.resolved) .appGeneralCourseHeaderProgressGraphPercentage {display: block; font-size: 12px; font-weight: 600; word-spacing: -1px;}
+.appGeneralCourseHeaderProgressGraphResolved {font-size: 18px;}
+.appGeneralCourseHeaderProgressLabel {display: none;}
+.appGeneralCourseHeaderProgressPercentage {display: none;}
+.appGeneralCourseInner{height: calc(100% - 60px);}
+.appGeneralCourseInnerColumn.content {width: 100%;}
+.appGeneralCourseInnerColumn.menu {display: none !important;}
+.appGeneralCourseBatchEndStatusPopupSectionNextContentHeaderName {font-weight: 600; font-size: 18px; line-height: 23px;}
+.appGeneralCourseBatchEndStatusPopupSectionNextContentHeaderScheduleDate {display: block;}
+.appGeneralCourseBatchEndStatusPopupSectionNextContentHeaderScheduleTime {display: block; margin-left: 0px; margin-top: 4px;}
+.appGeneralCourseBatchEndStatusPopupSectionNextContentOptions {display: block;}
+.appGeneralCourseBatchEndStatusPopupSectionNextContentOptions > div {display: block;}
+.appGeneralCourseBatchEndStatusPopupSectionNextContentOption {background: #EDF0F2; padding: 22px 30px 15px; text-align: center;}
+div.appGeneralCourseBatchEndStatusPopupSectionNextContentOptionsOr {width: 100%; display: flex; align-items: center; gap: 5px; margin: 5px 0;}
+.appGeneralCourseBatchEndStatusPopupSectionNextContentOptionsOrLine {height: 0; width: 100%; margin: 4px auto 2px; border-top: 1px solid; }
+.appGeneralCourseBatchEndStatusPopupSectionNextContentOptionTitle {font-weight: 600; font-size: 18px; line-height: 23px; margin-bottom: 6px;}
+.appGeneralCourseBatchEndStatusPopupSectionNextContentOptionDescription {font-size: 16px; line-height: 20px; min-height: auto;}
+.appGeneralCourseBatchEndStatusPopupSectionResolvedCampaignName{margin: 0 0 20px;}
+.appGeneralCourseContentNavigationDesktop {display: none;}
+.appGeneralCourseContentFooter {font-size: 14px !important; bottom: -200px !important;}
+.appGeneralCourseContentFooter.withnavigation {position: sticky; background-color: #EDF0F2;}
+.appGeneralCourseContentFooterInner {width: calc(100% - 40px); margin: 0px 20px;}
+.appGeneralCourseContentFooterTop {height: 50px !important;}
+.appGeneralCourseContentFooterUnit {display: none;}
+.appGeneralCourseContentFooterNavigationMobile {display: block;}
+.appGeneralCourseContentFooterFeedback .generalInformationUnitFeedback {width: auto; margin: 5px 0px 0px;}
+.appGeneralCourseDashboardLink {display: none !important;}
+}

@@ -1,0 +1,105 @@
+
+
+
+
+
+
+
+
+
+
+
+
+a.lighter, .link.lighter {}
+a, .link {}
+a:hover, .link:hover {}
+
+
+input[type=checkbox]:checked + .toggle {}
+
+.generalButton {}
+.generalButton:hover {}
+.generalButton:active, input[type=submit]:focus + .generalButton {}
+
+.generalInformationUnitButton {}
+.generalInformationUnitButton:hover {}
+.generalInformationUnitButton:active, input[type=submit]:focus + .generalInformationUnitButton {}
+
+.generalButtonOld {}
+.generalButtonOld:hover {}
+.generalButtonOld:active, input[type=submit]:focus + .generalButton {}
+.generalButtonOld.disabled {}
+
+.generalButtonOldLight {}
+.generalButtonOldLight:active { }
+
+.generalDropdown {}
+.generalDropdown > *:not(.disabled):hover {}
+.generalDropdown > *.selected {}
+
+.generalCompactViewSide {}
+.generalCompactViewSideLogotype {}
+
+
+.loginMethodSelectionMenu {}
+.loginMethodSelectionMenuOption {}
+.loginMethodSelectionMenuOption.selected {}
+
+
+
+.appGeneralHeaderLogo {}
+.appGeneralHeaderLogo:after {}
+.appGeneralHeaderUserInitials {}
+.appGeneralHeaderMobileContentHomeLogo {}
+
+.appHomeHeaderWrap {}
+.appGeneralFooterImage, .verifyCertificatesFooterImage {}
+
+.appGeneralCourseBatchEndStatusPopupSectionResolvedIcon {}
+
+.appCampaignActionsInProgressProgressBarInner {}
+.appCampaignManagerTeamAddPopupSuccessDescriptionIcon {}
+.appCampaignManagerTeamRemovePopupSuccessDescriptionIcon {}
+
+.testGameRemainingTimeProgressValue {}
+
+.generalTalentUserCertificateIcon {}
+.generalTalentUserMenu {}
+.generalTalentUserMenu > a {}
+.generalTalentUserMenu > a.active {}
+.generalTalentUserEntry:hover {}
+.generalTalentUserEntry.expanded {}
+.generalTalentUserTalentMenuPendingRatingsCircle {}
+.generalTalentUserTalentContentAddEntryForm {}
+.generalTalentUserCertificateEditPopupIcon {}
+
+.talentHomeUserJobIcon {}
+.talentEntriesWizardMenuEntry {}
+.talentEntriesWizardMenuEntry.completed {}
+.talentEntriesWizardMenuEntryIcon {}
+.talentEntriesWizardMenuEntryIconActive {}
+.talentEntriesWizardMenuEntry:hover .talentEntriesWizardMenuEntryIcon, .talentEntriesWizardMenuEntry.active .talentEntriesWizardMenuEntryIcon {}
+.talentEntriesWizardMenuEntry.completed .talentEntriesWizardMenuEntryIcon { }
+.talentEntriesWizardMenuEntryConnector {}
+.talentEntriesWizardMenuEntry.completed .talentEntriesWizardMenuEntryConnector {}
+.talentEntriesWizardMenuEntryTooltipProgressInner {}
+.talentEntriesWizardNextStepMessageIcon {}
+.talentCertificatesEditPopupIcon {}
+
+.teamStatisticsGeneralTabs {}
+.teamStatisticsGeneralTab { }
+.teamStatisticsGeneralTab.active {}
+.teamStatisticsGeneralProgress:before, .teamStatisticsGeneralProgressBar {}
+.teamStatisticsOverviewLearningUsersHeaderFilters a.active {}
+.teamStatisticsCampaignStatisticsBetterThanGraph {}
+.teamStatisticsUserTeamLeaderboard {}
+.teamStatisticsUserCampaignContentDetailsQuestionsDetailsUnitAnswer.resolved-nonevaluative {}
+
+@media (max-width: 720px) {
+	.generalCompactViewSide {}
+
+	.appHomeHeaderWrap {}
+	.appGeneralFooterImage, .verifyCertificatesFooterImage {}
+}
+
+
