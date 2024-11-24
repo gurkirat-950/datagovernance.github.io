@@ -1,0 +1,151 @@
+<?xml version="1.0" standalone="no"?>
+		<manifest identifier="Manifest" version="1" xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+			<metadata>
+				<schema>ADL SCORM</schema>
+				<schemaversion>1.2</schemaversion>
+			</metadata>
+			<organizations>
+				<organization identifier="jollydeck_learning_13872">
+					<title>Data Governance Training</title>
+					<item identifier="item_1" identifierref="resource_1">
+						<title>Data Governance Training</title>
+					</item>
+				</organization>
+			</organizations>
+			<resources>
+				<resource identifier="resource_1" type="webcontent" href="course-1-1.html" adlcp:scormtype="sco">
+					<file href="learning-1.html" />
+			<file href="course-1-1.html" />
+			<file href="data/3bc1db3d53876dba.jpg" />
+			<file href="data/23a7477e8c55b464.jpg" />
+			<file href="data/2ff92d89d50c83bf.png" />
+			<file href="data/2ff92d89d50c83bf-thumb.png" />
+			<file href="data/04b117b567b0eb82.png" />
+			<file href="data/04b117b567b0eb82-thumb.png" />
+			<file href="data/0d04ee4a6b52f6f3.png" />
+			<file href="data/0d04ee4a6b52f6f3-thumb.png" />
+			<file href="data/9d7ed5a41ea20910.jpg" />
+			<file href="data/e4b0677739177d44.png" />
+			<file href="data/e4b0677739177d44-thumb.png" />
+			<file href="data/74a7aa6c5a74366c.png" />
+			<file href="data/74a7aa6c5a74366c-thumb.png" />
+			<file href="data/12affa17843faf6e.png" />
+			<file href="data/12affa17843faf6e-thumb.png" />
+			<file href="data/11234ebe1ea201c7.css" />
+			<file href="data/f36e68f7e2d7ea8e.css" />
+			<file href="data/677a298f76d7dcf9.css" />
+			<file href="data/cd1c3439fd3bfa0a.css" />
+			<file href="data/d6c57d987bb5a28f.css" />
+			<file href="data/accb681a263d40cb.css" />
+			<file href="data/bbc5b19acf647868.css" />
+			<file href="data/5a2e847675cf3788.css" />
+			<file href="data/4797f77dadba3168.js" />
+			<file href="data/aa388ca610df9e41.js" />
+			<file href="data/bad9b9d15da7f493.js" />
+			<file href="data/ca1c17c477a8a3e3.js" />
+			<file href="data/3472089de14805f3.js" />
+			<file href="data/72038ea7e62531ff.js" />
+			<file href="data/9afe8d212fb078ad.js" />
+			<file href="data/9ac1a8326d63ec6d.js" />
+			<file href="data/2cf5599c90d2c0f8.js" />
+			<file href="data/591a80b415ada575.js" />
+			<file href="data/c2f943f8dfee7e4c.js" />
+			<file href="data/637907359239c03e.js" />
+			<file href="data/3245064913e02c02.js" />
+			<file href="data/6c8a35caa891df62.svg" />
+			<file href="data/817aed7631ef1d77.svg" />
+			<file href="data/f1b36490435119d7.svg" />
+			<file href="data/fbf7eb9d4e7ba7a9.css" />
+			<file href="data/63886499b491cc67.css" />
+			<file href="data/eef70ffb37f371fc.css" />
+			<file href="data/e42e0f2a2769ad41.js" />
+			<file href="data/a0da61150817b1a9.js" />
+			<file href="data/f44e15e02224c03c.js" />
+			<file href="data/65ee6193f3c33ffa.svg" />
+			<file href="data/95b7c94678784759.woff2" />
+			<file href="data/10a13d65cc547ad7.woff" />
+			<file href="data/a709ce0485a42277.woff2" />
+			<file href="data/1c29a0f0ab2a5a20.woff" />
+			<file href="data/31fb439e1660f573.woff2" />
+			<file href="data/47ee75b52dd8f17b.woff" />
+			<file href="data/e03bd2be2b68fb79.woff2" />
+			<file href="data/ce3ee92ca74f8372.woff" />
+			<file href="data/44a535f4d19a9b70.woff2" />
+			<file href="data/d330d2b808f1bf63.woff" />
+			<file href="data/fe0aa697bf82b927.woff2" />
+			<file href="data/e555b6c2280b5fc0.png" />
+			<file href="data/a9ddb8485449e737.png" />
+			<file href="data/781795dc9bba9900.png" />
+			<file href="data/22105ea2a6099abe.png" />
+			<file href="data/883d11bf7620c2bf.svg" />
+			<file href="data/2caa2468096ddc1c.svg" />
+			<file href="data/9d2088f716868cc0.svg" />
+			<file href="data/5f7f05bdd6f2e3c2.svg" />
+			<file href="data/ea32c06b83138676.svg" />
+			<file href="data/50107b82cd9701e1.svg" />
+			<file href="data/8471c616a54303b6.jpg" />
+			<file href="data/e69ad9ab5b578cf0.jpg" />
+			<file href="data/41ce9c027b2fdc2a.svg" />
+			<file href="data/2db653c58c4aa429.svg" />
+			<file href="data/61babff4f89a4491.svg" />
+			<file href="data/6cf6e91686781087.svg" />
+			<file href="data/6dba2adfd3ecaea6.svg" />
+			<file href="data/02ded9a981ac5cac.svg" />
+			<file href="data/fa73bf7f5bbd549c.svg" />
+			<file href="data/986ec743bf341177.svg" />
+			<file href="data/003f91d8222cf80d.svg" />
+			<file href="data/a4eebda23a12ad3c.svg" />
+			<file href="data/37fe856c7dd674a4.svg" />
+			<file href="data/ecd0d41e22db3c45.svg" />
+			<file href="data/dba570e11c47a347.svg" />
+			<file href="data/a2e1de5af2b0b297.svg" />
+			<file href="data/5e2cbc052275a116.svg" />
+			<file href="data/af618c37ee8c8d24.svg" />
+			<file href="data/d9a23faf0a8013d1.svg" />
+			<file href="data/e0479be6ffb48396.svg" />
+			<file href="data/d363cb918bfa1d7b.svg" />
+			<file href="data/b07cf5c18b6704e1.svg" />
+			<file href="data/ebf28110e06ad852.svg" />
+			<file href="data/2f7aa94234e57d3e.svg" />
+			<file href="data/87c920540baf62a8.svg" />
+			<file href="data/0a6e8a97684aa5ba.svg" />
+			<file href="data/15a62ce5e4576622.svg" />
+			<file href="data/ba80640ed9ec1f11.svg" />
+			<file href="data/294f69e78e428c8a.svg" />
+			<file href="data/de7d7acf5d504fd6.svg" />
+			<file href="data/7e14857818f802dd.svg" />
+			<file href="data/69b92e798fa418c9.svg" />
+			<file href="data/777b7f17bc71ae4f.svg" />
+			<file href="data/7010ebdd23d5d1d9.svg" />
+			<file href="data/26f4e8b97972a519.svg" />
+			<file href="data/ebf727b8b48f5f26.svg" />
+			<file href="data/14651eef38d121d0.svg" />
+			<file href="data/c9d8406786c063d2.svg" />
+			<file href="data/dd35903593677f00.woff2" />
+			<file href="data/b96312dc46752239.woff2" />
+			<file href="data/d08c59fb69956d73.png" />
+			<file href="data/4a89a6b4b0231563.png" />
+			<file href="data/2f3df5039e10b89e.png" />
+			<file href="data/4d4d871822baea31.png" />
+			<file href="data/443cac7d79833508.png" />
+			<file href="data/a267bc6815457ca7.png" />
+			<file href="data/fd0dae103a0db4fe.png" />
+			<file href="data/0b8319db13b015e1.png" />
+			<file href="data/5a1cbc4a7c3e45ac.png" />
+			<file href="data/6509d55e9a96f118.png" />
+			<file href="data/392d64c1a4455155.png" />
+			<file href="data/533a90d070660490.png" />
+			<file href="data/aa11bbc0c90a0149.png" />
+			<file href="data/b1f00a40ec615b4b.png" />
+			<file href="data/7be3880047401a19.png" />
+			<file href="data/4e44e1d09cd984b5.png" />
+			<file href="data/57f8cbb0f1b47b8b.png" />
+			<file href="data/4073b007483b64d2.svg" />
+			<file href="data/9b4a5bacce43b345.svg" />
+			<file href="data/2b677be0d473e4b6.svg" />
+			<file href="data/af43b3fb1de2b4f0.jpg" />
+
+				</resource>
+			</resources>
+		</manifest>
+		
